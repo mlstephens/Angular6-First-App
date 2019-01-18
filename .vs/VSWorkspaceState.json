@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\warningalert"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\app\\warningalert\\warningalert.component.html",
+  "SelectedNode": "\\src\\app\\warningalert",
   "PreviewInSolutionExplorer": false
 }
