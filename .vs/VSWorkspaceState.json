@@ -3,9 +3,8 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\Server",
-    "\\src\\app\\servers"
+    "\\src\\app\\warningalert"
   ],
-  "SelectedNode": "\\src\\app\\servers\\servers.component.ts",
+  "SelectedNode": "\\src\\app\\warningalert\\warningalert.component.html",
   "PreviewInSolutionExplorer": false
 }
