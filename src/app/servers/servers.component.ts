@@ -9,7 +9,7 @@ export class ServersComponent implements OnInit {
 
   allowNewServer = false;
   serverCreationStatus = 'No Server was created.';
-  serverName = '';
+  serverName = 'test server';
 
   constructor()
   {
@@ -20,7 +20,7 @@ export class ServersComponent implements OnInit {
   }
 
   onCreateServer() {
-    return this.serverCreationStatus = 'Server was created.';
+    return this.serverCreationStatus = 'Server was created. Name is ' + this.serverName;
   }
 
   onUpdateServerName(event: Event) {
