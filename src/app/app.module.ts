@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './Server/server.component';
@@ -11,12 +12,13 @@ import { SuccessfulComponent } from './successful/successful.component';
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent,
-    WarningAlertComponent,
-    SuccessfulComponent
+    ServersComponent
+    //WarningAlertComponent,
+    //SuccessfulComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
