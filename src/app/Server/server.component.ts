@@ -13,7 +13,6 @@ export class ServerComponent
 {
   serverId: number = 10;
   serverStatus: string = 'Offline.';
-  serverName = 'Test-Server';
 
   constructor() {
     this.serverStatus = Math.random() > .5 ? 'online' : 'offline';
