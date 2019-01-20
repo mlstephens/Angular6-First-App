@@ -21,9 +21,11 @@
 <!--<p>{{ allowNewServer }}</p>-->
 
 <!--property binding-->
-<p [innerText]="allowNewServer"></p>
+<!--<p [innerText]="allowNewServer"></p>-->
 
-<p>{{  serverCreationStatus }}</p>
+<!--<p>{{  serverCreationStatus }}</p>-->
 
-<app-server></app-server>
-<app-server></app-server>
+<p *ngIf="serverCreated">Server was created. Server name is {{ serverName }}</p>
+
+<!--<app-server></app-server>
+<app-server></app-server>-->

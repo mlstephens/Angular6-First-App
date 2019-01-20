@@ -12,9 +12,9 @@ import { SuccessfulComponent } from './successful/successful.component';
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent,
-    WarningAlertComponent,
-    SuccessfulComponent
+    ServersComponent
+    //WarningAlertComponent,
+    //SuccessfulComponent
   ],
   imports: [
     BrowserModule,
