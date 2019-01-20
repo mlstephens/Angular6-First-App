@@ -1,4 +1,4 @@
-<!--<label>Server Name</label>-->
+<label>Server Name</label>
 
 <!--one way data binding-->
 <!--<input
@@ -7,23 +7,23 @@
        (input)="onUpdateServerName($event)"/>-->
 
 <!--two way data binding-->
-<!--<input type="text"
+<input type="text"
        class="form-control"
-       [(ngModel)]="serverName" />-->
+       [(ngModel)]="serverName" />
 
 <!--<p>New Server Name: {{ serverName }}</p>-->
 
-<!--<button class="btn btn-primary"
+<button class="btn btn-primary"
         [disabled]="!allowNewServer"
-        (click)="onCreateServer()">Add Server</button>-->
+        (click)="onCreateServer()">Add Server</button>
 
 <!--string interpolation-->
 <!--<p>{{ allowNewServer }}</p>-->
 
 <!--property binding-->
-<!--<p [innerText]="allowNewServer"></p>-->
+<p [innerText]="allowNewServer"></p>
 
-<!--<p>{{  serverCreationStatus }}</p>-->
+<p>{{  serverCreationStatus }}</p>
 
 <app-server></app-server>
 <app-server></app-server>
